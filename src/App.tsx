@@ -12,11 +12,11 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
+      "I dare you say no",
+      "$1000 mehr or no",
+      "$2000! mehr or no",
+      "$5000!!! or no",
+      "Second Last chance!",
       "Surely not?",
       "You might regret this!",
       "Give it another thought!",
@@ -34,7 +34,7 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">      
+    <div className="centered-container">
       <div className="valentine-container">
         {yesPressed ? (
           <>
